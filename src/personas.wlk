@@ -39,7 +39,6 @@ object ramiro {
 	var contractura = 4
 	var tieneGrasosaLaPiel = true
 	method recibirMasajes() {
-		// 0.min(2) 0.max(2)//
 		if(contractura == 0){contractura += 0}
 		if(contractura >0){contractura -= 2}
 		
